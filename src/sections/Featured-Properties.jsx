@@ -73,12 +73,12 @@ const categoryColors = {
 export default function FeaturedProperties() {
   return (
     <div>
-      <div className="mx-auto py-16 sm:py-24 sm:px-24 px-4">
-        <h2 className="text-5xl font-bold tracking-tight text-gray-900">
+      <div className="mx-auto py-36 sm:py-24 sm:px-24 px-4">
+        <h2 className="sm:text-5xl text-3xl font-bold tracking-tight text-gray-900">
           Featured Properties
         </h2>
 
-        <div className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {properties.map((property) => (
             <div
               key={property.id}
@@ -105,7 +105,7 @@ export default function FeaturedProperties() {
                 <img
                   src={property.imageSrc}
                   alt={property.imageAlt}
-                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                  className="h-80 w-full object-cover object-center lg:h-full lg:w-full"
                 />
                 {/* Info icon and white background on hover */}
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
