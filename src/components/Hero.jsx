@@ -23,7 +23,7 @@ export default function Hero() {
           loop={true}
           modules={[Autoplay]}
           pagination={{ clickable: true }}
-          className="w-[100%] py-3 sm:h-[800px] h-[584px]"
+          className="w-[100%] pb-3 sm:h-[800px] h-[584px]"
         >
           <SwiperSlide>
             <img
