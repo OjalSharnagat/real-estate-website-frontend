@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import FeaturedProperties from "./sections/Featured-Properties"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <main>
       <Navbar />
       <Hero />
+      <FeaturedProperties />
     </main>
   )
 }
